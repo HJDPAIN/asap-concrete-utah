@@ -17,3 +17,9 @@
 15. **GA4:** the live ID `G-HNYVBE79LV` is included in the layout as a commented-out slot, not active.
 16. **Privacy Policy** is a clearly labeled placeholder page, not legal advice.
 17. **Netlify site name:** `asap-concrete-utah-preview` so it cannot be confused with a production site. No custom domain attached.
+18. **Node 24** pinned via `.nvmrc` and `NODE_VERSION` because the scaffold failed on Node 20. Astro 5 is used rather than the newest major for stability.
+19. **SVG logo** redrawn from the client's mark: the triangle plus "ASAP / CONCRETE CUTTING" wordmark. The original logo PNG has a black background and did not fit a white header. Confirm the redraw is acceptable or supply vector artwork.
+20. **Strict CSP** (`script-src 'self'`): Vite's script inlining is disabled so every script is an external file. The GA4 slot needs CSP additions when enabled (see README).
+21. **Empty photo field** is disabled on submit when no file is chosen. This was added while debugging form delivery. It turned out not to be the cause, because submissions were going to Netlify's spam folder, but it is harmless and keeps payloads clean.
+22. **Netlify repo link** was set up through the API (deploy key + build settings + GitHub webhook) because `netlify init` is interactive. Pushes to `main` build automatically; this was verified with two pushes.
+23. **Trust strip** uses only claims backed by source content: location, "same-day when the calendar allows" (from a review), five-star reviews (all three shown are 5-star), and scanning. No years, licensing or review counts.

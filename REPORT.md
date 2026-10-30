@@ -41,7 +41,7 @@ Desktop scores are 100/100/100/100 on all three pages. Full table is in QA.md.
 - Confirm all ten services are current, especially Driveway Cleaning and Concrete Grinding.
 - Confirm the service areas, and any specific cities they want to target.
 - How travel beyond the listed areas is priced.
-- Approval of the redrawn SVG logo, or original vector artwork.
+- OK to use photos from their Instagram and Facebook on the site, and higher-resolution originals of those photos.
 - A reviewed privacy policy.
 
 ## Photo shoot list

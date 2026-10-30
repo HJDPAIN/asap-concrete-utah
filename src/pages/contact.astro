@@ -3,12 +3,15 @@ import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
 import QuoteForm from '../components/QuoteForm.astro';
 import Icon from '../components/Icon.astro';
+import Steps from '../components/Steps.astro';
+import Faq from '../components/Faq.astro';
+import faqs from '../content/faqs.json';
 import { biz } from '../lib/site';
-import { breadcrumbSchema } from '../lib/schema';
+import { breadcrumbSchema, faqSchema } from '../lib/schema';
 const crumbs = [{ label: 'Contact', href: '/contact/' }];
 const contactSchema = { '@context': 'https://schema.org', '@type': 'ContactPage', name: 'Contact ASAP Concrete Cutting', mainEntity: { '@id': `${biz.siteUrl}/#business` } };
 ---
-<Base title="Get a Free Concrete Cutting Quote" description="Request a free quote from ASAP Concrete Cutting in Logan, UT. Call or text (435) 760-0806, or send job details and a photo. Serving Cache Valley to Salt Lake City." schema={[breadcrumbSchema(crumbs), contactSchema]}>
+<Base title="Get a Free Concrete Cutting Quote" description="Request a free quote from ASAP Concrete Cutting in Logan, UT. Call or text (435) 760-0806, or send job details and a photo. Serving Cache Valley to Salt Lake City." schema={[breadcrumbSchema(crumbs), contactSchema, faqSchema(faqs)]}>
   <PageHeader title="Get a free quote" intro="Fastest way: call or text. Prefer to type? Send the form and we will get back to you." crumbs={crumbs} eyebrow="Contact" />
   <section class="section">
     <div class="container-x grid gap-12 lg:grid-cols-[1fr_360px]">
@@ -40,4 +43,6 @@ const contactSchema = { '@context': 'https://schema.org', '@type': 'ContactPage'
       </aside>
     </div>
   </section>
+  <div class="bg-ink-50"><Steps /></div>
+  <Faq faqs={faqs} />
 </Base>

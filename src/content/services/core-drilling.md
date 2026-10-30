@@ -8,7 +8,7 @@ metaTitle: "Core Drilling Services in Logan, UT"
 metaDescription: "Core drilling through concrete slabs, walls and footings for pipe, conduit, vents and anchors. Any hole size, fast scheduling. Call (435) 760-0806."
 image: "core-drilling-skid-steer"
 imageAlt: "Operator core drilling through a concrete slab next to a skid steer"
-gallery: []
+gallery: ["core-drill-in-trench", "winter-core-drilling"]
 faqs:
   - q: "What hole sizes can you drill?"
     a: "We carry a range of core bits for common pipe, conduit and vent sizes. Tell us the diameter you need and how thick the concrete is."

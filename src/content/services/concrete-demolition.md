@@ -8,7 +8,7 @@ metaTitle: "Concrete Demolition & Removal in Logan, UT"
 metaDescription: "Concrete demolition and removal for driveways, slabs, footings and walls. We cut, break, load and haul. Cache Valley and Northern Utah. Call (435) 760-0806."
 image: "slab-demolition-skid-steer"
 imageAlt: "Broken-out concrete slab with a skid steer behind caution tape"
-gallery: ["interior-slab-trench-cut"]
+gallery: ["interior-slab-trench-cut", "excavator-wall-demo"]
 faqs:
   - q: "Do you haul the concrete away?"
     a: "Yes. We can cut, remove and haul off the concrete so the site is ready for the next step."

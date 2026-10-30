@@ -8,7 +8,7 @@ metaTitle: "Flat Sawing & Slab Cutting in Logan, UT"
 metaDescription: "Walk-behind flat sawing for slabs, floors, driveways and roads across Cache Valley and Northern Utah. Clean cuts, free quotes. Call (435) 760-0806."
 image: "electric-flat-saw"
 imageAlt: "Electric walk-behind flat saw parked next to the ASAP Concrete Cutting truck"
-gallery: ["interior-slab-trench-cut"]
+gallery: ["interior-slab-trench-cut", "crew-flat-sawing-indoors"]
 faqs:
   - q: "How deep can you flat saw?"
     a: "Walk-behind flat saws handle typical slabs, driveways and floors. Tell us the thickness when you ask for a quote and we will bring the right blade."

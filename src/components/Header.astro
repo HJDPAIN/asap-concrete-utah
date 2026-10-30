@@ -1,5 +1,6 @@
 ---
-import Logo from './Logo.astro';
+import { Image } from 'astro:assets';
+import logo from '../assets/images/logo.png';
 import Icon from './Icon.astro';
 import { biz, nav } from '../lib/site';
 const path = Astro.url.pathname;
@@ -8,7 +9,7 @@ const isActive = (href: string) => href === '/' ? path === '/' : path.startsWith
 <header class="sticky top-0 z-40 border-b border-ink-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/85">
   <div class="container-x flex h-16 items-center justify-between gap-4 lg:h-20">
     <a href="/" class="flex items-center gap-2 rounded-sm" aria-label={`${biz.name} home`}>
-      <Logo class="h-9 w-auto text-ink-950 lg:h-10" />
+      <Image src={logo} alt="ASAP Concrete Cutting" width={150} height={46} densities={[1, 2]} loading="eager" class="h-10 w-auto lg:h-11" />
     </a>
     <nav aria-label="Primary" class="hidden lg:block">
       <ul class="flex items-center gap-1">

@@ -8,7 +8,7 @@ metaTitle: "Wall Sawing & Egress Window Cutting in Logan, UT"
 metaDescription: "Precise wall sawing for egress windows, doorways and openings in foundations and walls. Serving Cache Valley to Salt Lake City. Free quotes, (435) 760-0806."
 image: "track-wall-saw-footing"
 imageAlt: "Track-mounted wall saw set up on a concrete footing"
-gallery: ["ring-saw-wall-cut", "egress-window-cut"]
+gallery: ["ring-saw-wall-cut", "egress-window-cut", "wall-saw-crew-dock", "basement-window-opening"]
 faqs:
   - q: "Can you cut an egress window in my basement?"
     a: "Yes. Egress windows are one of our most common jobs. Mark the opening, tell us the wall thickness, and we cut it clean. We can remove the block too."

@@ -42,7 +42,7 @@
 }
 
 @utility btn {
-  @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-3 min-h-12 min-w-11 text-base font-semibold leading-none transition-colors duration-150 motion-reduce:transition-none;
+  @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg px-5 py-3 min-h-12 min-w-11 text-base font-semibold leading-none transition-colors duration-150 motion-reduce:transition-none;
 }
 
 @layer base {

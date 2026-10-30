@@ -1,99 +1,134 @@
 ---
 import { Picture } from 'astro:assets';
+import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
-import TrustStrip from '../components/TrustStrip.astro';
-import ServiceGrid from '../components/ServiceGrid.astro';
-import Steps from '../components/Steps.astro';
-import Reviews from '../components/Reviews.astro';
-import Gallery from '../components/Gallery.astro';
-import Faq from '../components/Faq.astro';
-import Cta from '../components/Cta.astro';
-import faqs from '../content/faqs.json';
+import reviews from '../content/reviews.json';
 import { biz } from '../lib/site';
-import { faqSchema } from '../lib/schema';
+import { img } from '../lib/images';
 import hero from '../assets/images/core-drilling-skid-steer.jpg';
-import scanner from '../assets/images/gpr-concrete-scanner.jpg';
-import { galleryItems } from '../lib/gallery';
+import sideShot from '../assets/images/basement-window-opening.jpg';
+
+const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
+const mosaic = [
+  { key: 'wall-saw-crew-dock', alt: 'Two ASAP crew members running a track wall saw at a warehouse loading dock', cap: 'Wall sawing a dock opening', cls: 'col-span-2 row-span-2' },
+  { key: 'egress-wall-saw-crew', alt: 'Crew member in an ASAP shirt guiding a wall saw on a basement egress cut', cap: 'Egress window cut', cls: 'md:row-span-2' },
+  { key: 'crew-flat-sawing-indoors', alt: 'Crew flat sawing an interior slab inside a tented work area', cap: 'Indoor flat sawing', cls: '' },
+  { key: 'core-drill-in-trench', alt: 'Core drilling through a footing from inside a trench', cap: 'Coring a footing', cls: '' },
+  { key: 'block-wall-window-openings', alt: 'Two clean window openings cut into a block wall', cap: 'Openings in block', cls: 'md:col-span-2' },
+  { key: 'winter-core-drilling', alt: 'Core drilling on a snowy job site next to a side-by-side', cap: 'Core drilling in winter', cls: 'md:col-span-2' },
+];
+const [featured, ...more] = reviews;
 ---
-<Base title="Concrete Cutting, Core Drilling & Scanning in Logan, UT" description="ASAP Concrete Cutting saws, cores, scans and removes concrete across Cache Valley, Bear Lake, Brigham City, Ogden and Salt Lake City. Free quotes. Call or text (435) 760-0806." schema={[faqSchema(faqs)]} ogImage={hero}>
-  <section class="relative overflow-hidden bg-ink-950 text-white">
-    <div class="container-x grid items-center gap-10 py-14 md:py-20 lg:grid-cols-[1.1fr_1fr] lg:py-28">
-      <div>
-        <p class="eyebrow !text-brand-500">Logan, Utah · Cache Valley to Salt Lake</p>
-        <h1 class="mt-3 text-white">Concrete cut, cored and scanned. <span class="text-brand-500">Fast.</span></h1>
-        <p class="mt-5 max-w-[52ch] text-lg md:text-xl text-ink-200">Wall sawing, flat sawing, core drilling, scanning and demolition for homeowners and contractors. Tell us the job and we will tell you when we can be there.</p>
-        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-          <a href={biz.phoneHref} class="btn-primary text-lg px-6"><Icon name="phone" class="h-5 w-5" />{biz.phoneNote} {biz.phone}</a>
-          <a href="/contact/" class="btn-dark text-lg px-6">Get a Free Quote</a>
-        </div>
-        <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-ink-200" aria-label="Highlights">
-          <li class="inline-flex items-center gap-2"><Icon name="check" class="h-4 w-4 text-brand-500" />Free quotes</li>
-          <li class="inline-flex items-center gap-2"><Icon name="check" class="h-4 w-4 text-brand-500" />Residential and commercial</li>
-          <li class="inline-flex items-center gap-2"><Icon name="check" class="h-4 w-4 text-brand-500" />Cut, remove and haul away</li>
-        </ul>
+<Base title="Concrete Cutting, Core Drilling & Scanning in Logan, UT" description="ASAP Concrete Cutting saws, cores, scans and removes concrete across Cache Valley, Bear Lake, Brigham City, Ogden and Salt Lake City. Free quotes. Call or text (435) 760-0806." ogImage={hero}>
+
+  <!-- Hero -->
+  <section class="relative isolate overflow-hidden bg-ink-950 text-white">
+    <Picture src={hero} alt="" widths={[480, 768, 1280, 1920]} sizes="100vw" quality={50} formats={['avif','webp']} loading="eager" fetchpriority="high" decoding="async" class="absolute inset-0 -z-10 h-full w-full object-cover object-[60%_30%]" />
+    <div class="absolute inset-0 -z-10 bg-gradient-to-t from-ink-950 via-ink-950/75 to-ink-950/30 lg:bg-gradient-to-r lg:from-ink-950/95 lg:via-ink-950/70 lg:to-ink-950/10" aria-hidden="true"></div>
+    <div class="container-x flex min-h-[78svh] flex-col justify-end pb-12 pt-40 md:min-h-[82svh] lg:justify-center lg:pb-24 lg:pt-28">
+      <p class="inline-flex w-fit items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-sm font-semibold backdrop-blur">
+        <span class="h-2 w-2 rounded-full bg-brand-500" aria-hidden="true"></span>Logan, Utah · Cache Valley to Salt Lake
+      </p>
+      <h1 class="mt-5 max-w-[14ch] text-5xl leading-[0.98] text-white md:text-6xl lg:text-7xl">Concrete cut right. <span class="text-brand-500">ASAP.</span></h1>
+      <p class="mt-5 max-w-[46ch] text-lg text-ink-200 md:text-xl">Sawing, coring, scanning and demo for homeowners and contractors. Call with the job and we’ll tell you when we can be there.</p>
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+        <a href={biz.phoneHref} class="btn-primary px-6 text-lg"><Icon name="phone" class="h-5 w-5" />{biz.phone}</a>
+        <a href="/contact/" class="btn border border-white/40 bg-white/10 px-6 text-lg text-white backdrop-blur hover:bg-white/20">Get a free quote <Icon name="arrow" class="h-5 w-5" /></a>
       </div>
-      <div class="relative">
-        <Picture src={hero} alt="ASAP Concrete Cutting operator core drilling a concrete slab beside a skid steer on a commercial site" widths={[480, 768, 1100]} sizes="(min-width:1024px) 560px, 100vw" formats={['avif','webp']} loading="eager" fetchpriority="high" decoding="async" class="aspect-[4/3] w-full rounded-2xl object-cover shadow-2xl lg:aspect-[5/4]" />
-        <p class="absolute bottom-3 left-3 rounded-lg bg-ink-950/80 px-3 py-1.5 text-sm text-white backdrop-blur">Core drilling, Northern Utah</p>
-      </div>
-    </div>
-  </section>
-
-  <div class="container-x"><TrustStrip /></div>
-
-  <ServiceGrid />
-
-  <section class="section bg-ink-50" aria-labelledby="why-title">
-    <div class="container-x grid gap-10 lg:grid-cols-2 lg:items-center">
-      <div>
-        <p class="eyebrow">Why ASAP</p>
-        <h2 id="why-title" class="mt-2">Show up on time, cut it right, leave it clean</h2>
-        <ul class="mt-6 grid gap-5">
-          {[
-            ['The right tool for each cut', 'Track-mounted wall saw, walk-behind and electric flat saws, core drills, ring saw, skid-steer breaker and a concrete scanner. One call covers the whole job.'],
-            ['We can see inside the slab', 'Our scanner finds rebar, conduit, pipe, post-tension cables and in-floor heat before we cut, so there are no expensive surprises.'],
-            ['Cut, remove, haul', 'If you want the concrete gone, we break it out and haul it off so the site is ready for the next trade.'],
-            ['Homeowners and contractors', 'Egress windows and trenches for homeowners. Sawing, coring and demo for GCs, plumbers and electricians.'],
-          ].map(([t, d]) => (
-            <li class="flex gap-4"><span class="mt-1 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-700 text-white"><Icon name="check" class="h-4 w-4" /></span><div><h3 class="text-lg">{t}</h3><p class="mt-1">{d}</p></div></li>
-          ))}
-        </ul>
-      </div>
-      <div class="card overflow-hidden p-0">
-        <Picture src={scanner} alt="Ground-penetrating radar concrete scanner used to locate rebar and conduit before cutting" widths={[480, 768, 1100]} sizes="(min-width:1024px) 560px, 100vw" formats={['avif','webp']} loading="lazy" decoding="async" class="aspect-[4/3] w-full object-cover" />
-        <div class="p-6">
-          <h3>Scan before you cut</h3>
-          <p class="mt-2">Hitting a conduit or an in-floor heat line turns a quick job into an expensive repair. A scan takes minutes and marks exactly where it is safe to cut or drill.</p>
-          <a href="/services/concrete-scanning/" class="mt-3 inline-flex min-h-11 items-center gap-1 font-semibold text-brand-700 hover:underline underline-offset-4">About concrete scanning <Icon name="arrow" class="h-4 w-4" /></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <Steps />
-
-  <section class="section bg-ink-50" aria-labelledby="projects-title">
-    <div class="container-x">
-      <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-        <div class="max-w-[48ch]"><p class="eyebrow">Recent work</p><h2 id="projects-title" class="mt-2">Real jobs, real photos</h2></div>
-        <a href="/projects/" class="btn-ghost self-start md:self-auto">All projects <Icon name="arrow" class="h-4 w-4" /></a>
-      </div>
-      <div class="mt-10"><Gallery items={galleryItems.slice(0, 6)} id="home-gallery" /></div>
-    </div>
-  </section>
-
-  <Reviews />
-
-  <section class="section" aria-labelledby="areas-title">
-    <div class="container-x grid gap-8 lg:grid-cols-[1fr_2fr]">
-      <div><p class="eyebrow">Service areas</p><h2 id="areas-title" class="mt-2">Based in Logan. We travel.</h2><p class="mt-3 text-lg">{biz.travelNote}</p><a href="/service-areas/" class="mt-4 inline-flex min-h-11 items-center gap-1 font-semibold text-brand-700 hover:underline underline-offset-4">See coverage details <Icon name="arrow" class="h-4 w-4" /></a></div>
-      <ul class="grid gap-3 sm:grid-cols-2" role="list">
-        {biz.serviceAreas.map(a => <li class="card flex items-start gap-3 p-4"><Icon name="pin" class="mt-0.5 h-5 w-5 shrink-0 text-brand-700" /><div><p class="font-semibold text-ink-950">{a.name}</p><p class="text-sm text-ink-500">{a.note}</p></div></li>)}
+      <ul class="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-ink-200" aria-label="Highlights">
+        <li class="inline-flex items-center gap-2"><span class="flex text-cta-600" aria-hidden="true">{[1,2,3,4,5].map(() => <Icon name="star" class="h-4 w-4 fill-current" />)}</span><span><span class="font-semibold text-white">5-star</span> reviews</span></li>
+        <li class="inline-flex items-center gap-2"><Icon name="check" class="h-4 w-4 text-brand-500" />Free quotes</li>
+        <li class="inline-flex items-center gap-2"><Icon name="check" class="h-4 w-4 text-brand-500" />Same-day when we can</li>
       </ul>
     </div>
   </section>
 
-  <Faq faqs={faqs} />
-  <Cta />
+  <!-- Services -->
+  <section class="section" aria-labelledby="services-title">
+    <div class="container-x grid gap-12 lg:grid-cols-[1fr_1.15fr] lg:gap-16">
+      <div class="lg:sticky lg:top-28 lg:self-start">
+        <p class="eyebrow">What we do</p>
+        <h2 id="services-title" class="mt-3 text-4xl md:text-5xl">One crew for every cut.</h2>
+        <p class="mt-4 max-w-[42ch] text-lg">Openings, trenches, holes and removal. We scan first when it matters, cut clean, and haul it off if you want it gone.</p>
+        <Picture src={sideShot} alt="Clean egress window opening cut through a poured basement wall" widths={[480, 800, 1100]} sizes="(min-width:1024px) 480px, 100vw" formats={['avif','webp']} loading="lazy" decoding="async" class="mt-8 hidden aspect-[4/5] w-full rounded-3xl object-cover lg:block" />
+      </div>
+      <ul class="divide-y divide-ink-200 border-y border-ink-200" role="list">
+        {services.map((s, i) => (
+          <li>
+            <a href={`/services/${s.data.slug}/`} class="group flex items-center gap-4 py-5 md:gap-6 md:py-6">
+              <span class="w-8 shrink-0 font-display text-sm font-bold tabular-nums text-ink-500">{String(i + 1).padStart(2, '0')}</span>
+              <span class="min-w-0 flex-1">
+                <span class="block font-display text-xl font-bold tracking-tight text-ink-950 group-hover:text-brand-700 md:text-2xl">{s.data.title}</span>
+                <span class="mt-1 block text-ink-500 max-md:line-clamp-2">{s.data.summary}</span>
+              </span>
+              <span class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-ink-200 text-ink-950 transition-colors duration-150 group-hover:border-brand-700 group-hover:bg-brand-700 group-hover:text-white motion-reduce:transition-none" aria-hidden="true"><Icon name="arrow" class="h-5 w-5" /></span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Work mosaic -->
+  <section class="bg-ink-50 py-16 md:py-24" aria-labelledby="work-title">
+    <div class="container-x">
+      <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+        <div>
+          <p class="eyebrow">On the job</p>
+          <h2 id="work-title" class="mt-3 text-4xl md:text-5xl">You should see what we saw.</h2>
+        </div>
+        <a href="/projects/" class="btn-ghost self-start md:self-auto">See all projects <Icon name="arrow" class="h-4 w-4" /></a>
+      </div>
+      <ul class="mt-10 grid auto-rows-[150px] grid-cols-2 gap-3 sm:auto-rows-[200px] md:grid-cols-4 md:gap-4 lg:auto-rows-[230px]" role="list">
+        {mosaic.map(m => (
+          <li class:list={["group relative overflow-hidden rounded-2xl bg-ink-200", m.cls]}>
+            <Picture src={img(m.key)!} alt={m.alt} widths={[320, 640, 960]} sizes="(min-width:768px) 50vw, 100vw" formats={['avif','webp']} loading="lazy" decoding="async" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03] motion-reduce:transition-none" />
+            <span class="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink-950/80 to-transparent p-3 pt-10 text-sm font-semibold text-white">{m.cap}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="section" aria-labelledby="reviews-title">
+    <div class="container-x">
+      <h2 id="reviews-title" class="sr-only">Customer reviews</h2>
+      <div class="grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-center">
+        <figure>
+          <div class="flex gap-1 text-cta-600" role="img" aria-label="5 out of 5 stars">{[1,2,3,4,5].map(() => <Icon name="star" class="h-6 w-6 fill-current" />)}</div>
+          <blockquote class="mt-5 font-display text-2xl font-bold leading-snug tracking-tight text-ink-950 md:text-4xl">“{more[1].quote}”</blockquote>
+          <figcaption class="mt-5 text-ink-500"><span class="font-semibold text-ink-950">{more[1].author}</span> · <time datetime={more[1].date}>{more[1].dateDisplay}</time></figcaption>
+        </figure>
+        <ul class="grid gap-4" role="list">
+          {[featured, more[0]].map(r => (
+            <li class="rounded-2xl border border-ink-200 p-6">
+              <div class="flex gap-0.5 text-cta-600" role="img" aria-label={`${r.rating} out of 5 stars`}>{[1,2,3,4,5].map(() => <Icon name="star" class="h-4 w-4 fill-current" />)}</div>
+              <blockquote class="mt-3 text-ink-950">“{r.quote}”</blockquote>
+              <p class="mt-3 text-sm text-ink-500"><span class="font-semibold text-ink-700">{r.author}</span> · <time datetime={r.date}>{r.dateDisplay}</time></p>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing CTA -->
+  <section class="px-4 pb-16 sm:px-6 md:pb-24 lg:px-8">
+    <div class="relative isolate mx-auto max-w-[1200px] overflow-hidden rounded-3xl bg-ink-950 px-6 py-14 text-white md:px-14 md:py-20">
+      <div class="absolute -right-24 -top-24 -z-10 h-72 w-72 rounded-full bg-brand-500/25 blur-3xl" aria-hidden="true"></div>
+      <div class="grid gap-8 lg:grid-cols-[1.3fr_1fr] lg:items-end">
+        <div>
+          <h2 class="text-4xl text-white md:text-5xl">Got concrete in the way?</h2>
+          <p class="mt-4 max-w-[48ch] text-lg text-ink-200">Text a photo with the thickness and what needs to go. Free quote, honest timing.</p>
+          <p class="mt-6 text-sm text-ink-300">Serving {biz.serviceAreas.map(a => a.name).join(' · ')}. <a href="/service-areas/" class="font-semibold text-brand-500 underline-offset-4 hover:underline">{biz.travelNote.replace('.', '')}</a>.</p>
+        </div>
+        <div class="flex flex-col gap-3 sm:flex-row lg:flex-col lg:items-end xl:flex-row xl:justify-end">
+          <a href={biz.phoneHref} class="btn-primary px-6 text-lg"><Icon name="phone" class="h-5 w-5" />{biz.phone}</a>
+          <a href="/contact/" class="btn-dark px-6 text-lg">Get a free quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </Base>

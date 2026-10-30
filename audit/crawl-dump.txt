@@ -1,0 +1,717 @@
+
+######## https://asapconcreteutah.com/ 200
+TITLE: ASAP Concrete Cutting in Logan, Utah
+DESC: Core Drilling, Flat Sawing, Wall Sawing, Concrete Scanning, Concrete Sealing, Demolition and Removal. 
+CANON: null ROBOTS: null
+H: [{"tag":"H1","text":"Logan, UT"},{"tag":"H2","text":"Contact Us"},{"tag":"H4","text":"Leave a detailed description of your project for a FREE quote."},{"tag":"H4","text":"ASAP Concrete Cutting"},{"tag":"H2","text":"Customer Reviews That Speak for Themselves"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87}]
+BG: ["linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_9191.jpg/:/rs=w:1535,m\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/Electric%20Flat%20Saw%20.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1535,m\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_5593.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1535,m\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_6752.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1535,m\")","linear-gradient(rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.24) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_6751.jpg/:/cr=t:13.24%25,l:13.24%25,w:73.53%25,h:73.53%25/rs=w:1535,m\")"]
+FORMS: [{"action":"https://asapconcreteutah.com/#","method":"get","fields":[{"type":"text","name":"_app_id","label":null},{"type":"text","name":"","label":"Name"},{"type":"text","name":"","label":"Email*"},{"type":"text","name":"","label":"Phone*"},{"type":"textarea","name":"","label":"Leave a detailed description of your project."},{"type":"checkbox","name":"","label":"Sign up for our email list for updates, promotions, and more."}]}]
+TEL: [ 'tel:4357600806', 'tel:+14357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com
+IFRAMES: []
+FONTS: [ 'Helvetica, arial, sans-serif', 'Montserrat, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | tel:+14357600806 [Click here to call] | https://policies.google.com/privacy [Privacy Policy] | https://policies.google.com/terms [Terms of Service] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+Logan, UT
+
+(435) 760-0806
+
+Click here to call
+
+We specialize in Wall Sawing - Flat Sawing - Core Drilling - Curbs and Approaches - Concrete Demolition - Green/Control Cutting - Concrete Grinding - Concrete Scanning - Concrete Sealing - Driveway Cleaning
+
+Contact Us
+Leave a detailed description of your project for a FREE quote.
+Name
+Email*
+Phone*
+
+Sign up for our email list for updates, promotions, and more.
+
+Send
+
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+
+ASAP Concrete Cutting
+Customer Reviews That Speak for Themselves
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles
+
+######## https://asapconcreteutah.com/services 200
+TITLE: ASAP Concrete Cutting in Logan, Utah
+DESC: Core Drilling, Flat Sawing, Wall Sawing, Concrete Demolition, Concrete Scanning. 
+CANON: null ROBOTS: null
+H: [{"tag":"H1","text":"\"You should see what we saw.\""},{"tag":"H4","text":"Services"},{"tag":"H4","text":"Service Areas"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87}]
+BG: []
+FORMS: []
+TEL: [ 'tel:4357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com
+IFRAMES: []
+FONTS: [ 'Helvetica, arial, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/services# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/services# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+"You should see what we saw."
+Services
+
+Flat Sawing 
+Wall Sawing
+Core Drilling
+Concrete Demolition 
+Curbs and Approaches
+Green/Control Cutting
+Concrete Scanning 
+Concrete Grinding
+Concrete Sealing 
+Driveway Cleaning 
+
+Service Areas
+
+Cache Valley
+Bear Lake
+Southern Idaho
+Brigham City
+Ogden
+Salt Lake City 
+
+
+
+
+Willing to travel beyond areas listed.
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles
+
+######## https://asapconcreteutah.com/contact-us 200
+TITLE: ASAP Concrete Cutting
+DESC: null
+CANON: null ROBOTS: null
+H: [{"tag":"H1","text":"Contact Us"},{"tag":"H4","text":"Leave a detailed description of your project for a FREE quote."},{"tag":"H4","text":"ASAP Concrete Cutting (435) 760-0806"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87}]
+BG: []
+FORMS: [{"action":"https://asapconcreteutah.com/contact-us","method":"get","fields":[{"type":"text","name":"_app_id","label":null},{"type":"text","name":"","label":"Name"},{"type":"text","name":"","label":"Email*"},{"type":"text","name":"","label":"Phone"},{"type":"textarea","name":"","label":"Leave a detailed description of your job. (Concrete Thickness, Location, How Many Feet Need Cut, Core Drill Hole Size, Etc.)"}]}]
+TEL: [ 'tel:4357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com,pagead2.googlesyndication.com,contact.apps-api.instantpage.secureserver.net,www.google.com,www.gstatic.com
+IFRAMES: [
+  'https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ld8-rwtAAAAAKpnbxeBcISaByFsz6J1-sYIiPxO&co=aHR0cHM6Ly9hc2FwY29uY3JldGV1dGFoLmNvbTo0NDM.&hl=en&v=bSuJ2xBC8cHT21-c68JXN31m&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=hdky7tc4wok5',
+  ''
+]
+FONTS: [ 'Helvetica, arial, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/contact-us# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/contact-us# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | https://policies.google.com/privacy [Privacy Policy] | https://policies.google.com/terms [Terms of Service] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+Contact Us
+Leave a detailed description of your project for a FREE quote.
+Name
+Email*
+Phone
+Send
+
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+
+ASAP Concrete Cutting (435) 760-0806
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles
+
+######## https://asapconcreteutah.com/articles 200
+TITLE: Articles
+DESC: null
+CANON: null ROBOTS: null
+H: [{"tag":"H1","text":"Helpful Articles"},{"tag":"H4","text":"5 Step Guide for Egress Window Projects"},{"tag":"H4","text":"Does Your Concrete Need To Be Sealed?"},{"tag":"H4","text":"Concrete Demolition and Removal"},{"tag":"H4","text":"Core Drilling Tips and Tricks"},{"tag":"H4","text":"Locating In-Floor Heating"},{"tag":"H4","text":"Concrete Scanning"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87}]
+BG: ["linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_3200.jpg/:/rs=w:540\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/concrete-sealer-water-repelling-v-seal-concret.jpg/:/rs=w:540\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2335%202.jpg/:/rs=w:540\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/blob-16d1c89.png/:/rs=w:540\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2678%202.jpg/:/rs=w:540\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2049%202.jpg/:/rs=w:540\")"]
+FORMS: []
+TEL: [ 'tel:4357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com,blog.apps.secureserver.net
+IFRAMES: []
+FONTS: [ 'Helvetica, arial, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/articles# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/articles# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | https://asapconcreteutah.com/articles [All Posts] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Demo+and+Removal [Concrete Demo and Removal] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Scanning [Concrete Scanning] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Sealer [Concrete Sealer] | https://asapconcreteutah.com/articles?blogcategory=Core+Drilling [Core Drilling] | https://asapconcreteutah.com/articles?blogcategory=Egress+Windows [Egress Windows] | https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects# [January 16, 2024
+|
+Egress Windows
+5 Step Guide for Egress Window Projects
+
+
+1. C] | https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete# [January 10, 2023
+|
+Concrete Sealer
+Does Your Concrete Need To Be Sealed?
+
+Sealin] | https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal# [February 8, 2021
+|
+Concrete Demo and Removal
+Concrete Demolition and Removal
+
+Co] | https://asapconcreteutah.com/articles/f/core-drilling-tips-and-tricks# [February 7, 2021
+|
+Core Drilling
+Core Drilling Tips and Tricks
+
+Core drilling ca] | https://asapconcreteutah.com/articles/f/locating-in-floor-heating# [January 7, 2021
+|
+Concrete Scanning
+Locating In-Floor Heating
+
+In-Floor Heating ] | https://asapconcreteutah.com/articles/f/concrete-scanning# [July 12, 2020
+|
+Concrete Scanning
+Concrete Scanning
+
+We recently added concrete ] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+Helpful Articles
+
+If you have any questions about your projects, give us a call. We are happy to help! 
+
+All PostsConcrete Demo and RemovalConcrete ScanningConcrete SealerCore DrillingEgress Windows
+January 16, 2024
+|
+Egress Windows
+5 Step Guide for Egress Window Projects
+
+
+1. Contact local city offices, or building inspector to determine what codes are in place for egress windows. Certain codes require a minimum size the window needs to be and the windows distance from the floor. Contract...
+
+Continue Reading
+January 10, 2023
+|
+Concrete Sealer
+Does Your Concrete Need To Be Sealed?
+
+Sealing concrete is an important step to keep your driveways, sidewalks, and concrete pads in great shape. If neglected, your concrete can quickly lose its finished surface. When the surface of your concrete star...
+
+Continue Reading
+February 8, 2021
+|
+Concrete Demo and Removal
+Concrete Demolition and Removal
+
+Concrete demolition is no joke. It's messy, it's loud, and it's heavy. Having the right equipment is a must for demolition jobs. Whether you're replacing a driveway, or need to run pipes under a concrete slab, we have th...
+
+Continue Reading
+February 7, 2021
+|
+Core Drilling
+Core Drilling Tips and Tricks
+
+Core drilling can be easy if you have the right equipment, AND a good core drill bit. In the world of concrete cutting and core drilling, the more you spend on a bit or blade, the better it will perform. There are plent...
+
+Continue Reading
+January 7, 2021
+|
+Concrete Scanning
+Locating In-Floor Heating
+
+In-Floor Heating can be a great addition when building a new home. These tubes have heated water running through them to keep your floors nice and warm.
+
+Continue Reading
+July 12, 2020
+|
+Concrete Scanning
+Concrete Scanning
+
+We recently added concrete scanning to our services. This piece of equipment allows us to take a look inside and under the concrete. This scanner can detect conduit, pipe, post-tension cables, electrical wire, con...
+
+Continue Reading
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles
+
+######## https://asapconcreteutah.com/ols/products 404
+TITLE: 
+DESC: null
+CANON: null ROBOTS: null
+H: []
+IMGS: []
+BG: []
+FORMS: []
+TEL: [] MAIL: []
+JSONLD: 0
+3P: 
+IFRAMES: []
+FONTS: []
+LINKS: 
+TEXT:
+Invalid Widget Data Requested
+
+######## https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects 200
+TITLE: 5 Step Guide for Egress Window Projects
+DESC: 
+1. Contact local city offices, or building inspector to determine what codes are in place for egress windows. Certain codes require a minimum size the window needs to be and the windows distance from the floor. Contract...
+CANON: https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects ROBOTS: null
+H: [{"tag":"H1","text":"Helpful Articles"},{"tag":"H3","text":"5 Step Guide for Egress Window Projects"},{"tag":"H4","text":"Categories"},{"tag":"H4","text":"Recent Posts"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_3200.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280","alt":"Cutting concrete and installing windows in a concrete foundation. ","w":1280,"h":1707,"dw":298,"dh":398}]
+BG: ["linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/concrete-sealer-water-repelling-v-seal-concret.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2335%202.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/blob-16d1c89.png/:/rs=h:110,m,cg:true/cr=w:110\")"]
+FORMS: []
+TEL: [ 'tel:4357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com,blog.apps.secureserver.net
+IFRAMES: []
+FONTS: [ 'Helvetica, arial, sans-serif', 'Montserrat, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | https://asapconcreteutah.com/articles?blog=y [All Posts] | https://asapconcreteutah.com/articles [All Posts] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Demo+and+Removal [Concrete Demo and Removal] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Scanning [Concrete Scanning] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Sealer [Concrete Sealer] | https://asapconcreteutah.com/articles?blogcategory=Core+Drilling [Core Drilling] | https://asapconcreteutah.com/articles?blogcategory=Egress+Windows [Egress Windows] | https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete [Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023] | https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal [Concrete Demolition and Removal
+
+Feb 8, 2021] | https://asapconcreteutah.com/articles/f/core-drilling-tips-and-tricks [Core Drilling Tips and Tricks
+
+Feb 7, 2021] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+Helpful Articles
+
+If you have any questions about your projects, give us a call. We are happy to help! 
+
+All Posts
+5 Step Guide for Egress Window Projects
+January 16, 2024|Egress Windows
+
+Cutting concrete and installing windows in a concrete foundation.
+
+
+1. Contact local city offices, or building inspector to determine what codes are in place for egress windows. Certain codes require a minimum size the window needs to be and the windows distance from the floor. Contractors may also be able to help you figure out egress window codes.
+
+ 2. Hire a contractor.  Adding an egress window may seem like it would be an easy project, but you may be surprised how many steps it takes and how much expertise is involved. Some sizes of windows may also require an engineer to inspect and approve the changes you're making in the homes foundation. Hiring a trusted contractor to manage the project will make the process much easier for you. 
+
+3. Decide what window size you want and where exactly you want the window. Dig out the dirt where the window well will be.  Have the contractor or window installer mark out exactly where the window needs to be. 
+
+ 4. Hire a concrete cutter to come cut in the opening if you are installing a new window or making an existing window bigger. Give them as much info about the job as possible.  Such as job location, concrete thickness, window size, etc.  We are also able to help remove the concrete upon request. 
+
+5. Install window, place window well, fill window well with gravel, back fill around window well, and do any finish work, waterproofing, or trim that you need to finish up the project.  
+
+
+
+
+ Feel free to contact us and we can help answer any questions and assist you with the process!
+
+Share this post:
+
+Categories
+All Posts
+Concrete Demo and Removal
+Concrete Scanning
+Concrete Sealer
+Core Drilling
+Egress Windows
+Recent Posts
+
+Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023
+
+Concrete Demolition and Removal
+
+Feb 8, 2021
+
+Core Drilling Tips and Tricks
+
+Feb 7, 2021
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles
+
+######## https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete 200
+TITLE: Does Your Concrete Need To Be Sealed?
+DESC:       Sealing concrete is an important step to keep your driveways, sidewalks, and concrete pads in great shape.  If neglected, your concrete can quickly lose its finished surface.  When the surface of your concrete star...
+CANON: https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete ROBOTS: null
+H: [{"tag":"H1","text":"Helpful Articles"},{"tag":"H3","text":"Does Your Concrete Need To Be Sealed?"},{"tag":"H4","text":"So how do you prevent your concrete from spalling?"},{"tag":"H4","text":"Recent Posts"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/441-driveway-before-4-smaller.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280","alt":"","w":1024,"h":612,"dw":596,"dh":356},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/concrete-sealer-water-repelling-v-seal-concret.jpg/:/rs=w:1280","alt":"","w":550,"h":412,"dw":596,"dh":447}]
+BG: ["linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_3200.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2335%202.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/blob-16d1c89.png/:/rs=h:110,m,cg:true/cr=w:110\")"]
+FORMS: []
+TEL: [ 'tel:4357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com,blog.apps.secureserver.net
+IFRAMES: []
+FONTS: [ 'Helvetica, arial, sans-serif', 'Montserrat, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | https://asapconcreteutah.com/articles?blog=y [All Posts] | https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects [5 Step Guide for Egress Window Projects
+
+Jan 16, 2024] | https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal [Concrete Demolition and Removal
+
+Feb 8, 2021] | https://asapconcreteutah.com/articles/f/core-drilling-tips-and-tricks [Core Drilling Tips and Tricks
+
+Feb 7, 2021] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+Helpful Articles
+
+If you have any questions about your projects, give us a call. We are happy to help! 
+
+All Posts
+Does Your Concrete Need To Be Sealed?
+January 10, 2023|Concrete Sealer
+
+      Sealing concrete is an important step to keep your driveways, sidewalks, and concrete pads in great shape.  If neglected, your concrete can quickly lose its finished surface.  When the surface of your concrete starts to chip up it is called "spalling". This can be caused by a few things. First, is road salts. The salts used to remove ice and snow have a damaging effect on your concrete. The chemicals in the salts get into the surface of your concrete and loosen the bonds of the concrete and weaken it. It is recommended to not put salts on your driveway for at least the first 3 years after it is poured.
+
+       Second, is freeze/thaw cycles. Winters in Utah can be brutal and the temperatures can be unpredictable. Concrete is porous so water can seep into the surface of the concrete. When water gets into the surface of your concrete and freezes, the water expands and puts pressure on the concrete causing it to chip up. The combination of freeze/thaw cycles and road salts can be a nightmare for your concrete. 
+
+       Example of what spalling or chipped concrete looks like. 
+
+
+
+
+So how do you prevent your concrete from spalling? 
+
+        The answer is simple. Avoid road salts, and apply a concrete sealer! There are many types of sealers that can be used based on how old the concrete is, or the type of finish that was done on it. For most outdoor concrete, a penetrating concrete sealer is best. This is what we mainly use on our customer's driveways. A penetrating sealer seeps into the surface of your concrete and creates a protective barrier to repel water, oil, road salts, and more. This sealer makes your driveway easier to clean if you happen to spill oil or other substances onto it. 
+
+     The sealer we use does not change the color, texture, or sheen of your concrete.  Since this sealer repels water is prevents the freeze/thaw cycles by keeping the water on the surface of the concrete instead of it seeping in. We use a power washer to clean your driveway before we apply the sealer to ensure that it works properly. 
+
+  Keeping your concrete looking great can be so simple but it is often neglected. A great looking driveway always adds curb appeal to your home or business. 
+
+ Be sure to reach out to us if you'd like to have your concrete sealed. We are happy to help you get it done!
+
+              Example of concrete that is sealed.
+
+Share this post:
+
+Recent Posts
+
+5 Step Guide for Egress Window Projects
+
+Jan 16, 2024
+
+Concrete Demolition and Removal
+
+Feb 8, 2021
+
+Core Drilling Tips and Tricks
+
+Feb 7, 2021
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles
+
+######## https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal 200
+TITLE: Concrete Demolition and Removal
+DESC: Concrete demolition is no joke. It's messy, it's loud, and it's heavy. Having the right equipment is a must for demolition jobs. Whether you're replacing a driveway, or need to run pipes under a concrete slab, we have th...
+CANON: https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal ROBOTS: null
+H: [{"tag":"H1","text":"Helpful Articles"},{"tag":"H3","text":"Concrete Demolition and Removal"},{"tag":"H4","text":"Categories"},{"tag":"H4","text":"Recent Posts"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2335%202.jpg/:/cr=t:5.35%25,l:5.35%25,w:89.29%25,h:89.29%25/rs=w:1280","alt":"Cut and Removal","w":1280,"h":1706,"dw":596,"dh":795},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_1828.jpg/:/rs=w:1280","alt":"Concrete Demolition","w":828,"h":804,"dw":596,"dh":579}]
+BG: ["linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_3200.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/concrete-sealer-water-repelling-v-seal-concret.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/blob-16d1c89.png/:/rs=h:110,m,cg:true/cr=w:110\")"]
+FORMS: []
+TEL: [ 'tel:4357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com,blog.apps.secureserver.net
+IFRAMES: []
+FONTS: [ 'Helvetica, arial, sans-serif', 'Montserrat, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | https://asapconcreteutah.com/articles?blog=y [All Posts] | https://asapconcreteutah.com/articles [All Posts] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Demo+and+Removal [Concrete Demo and Removal] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Scanning [Concrete Scanning] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Sealer [Concrete Sealer] | https://asapconcreteutah.com/articles?blogcategory=Core+Drilling [Core Drilling] | https://asapconcreteutah.com/articles?blogcategory=Egress+Windows [Egress Windows] | https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects [5 Step Guide for Egress Window Projects
+
+Jan 16, 2024] | https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete [Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023] | https://asapconcreteutah.com/articles/f/core-drilling-tips-and-tricks [Core Drilling Tips and Tricks
+
+Feb 7, 2021] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+Helpful Articles
+
+If you have any questions about your projects, give us a call. We are happy to help! 
+
+All Posts
+Concrete Demolition and Removal
+February 8, 2021|Concrete Demo and Removal
+
+Concrete demolition is no joke. It's messy, it's loud, and it's heavy. Having the right equipment is a must for demolition jobs. Whether you're replacing a driveway, or need to run pipes under a concrete slab, we have the equipment to cut, remove, and haul it off. 
+
+
+
+
+The picture below is a job where we cut and removed the concrete so the plumbers could run new pipes underneath the slab.
+
+Cut and Removal
+
+
+
+
+Bigger jobs like this require a jackhammer on a skid-steer. 
+
+Concrete Demolition
+
+Share this post:
+
+Categories
+All Posts
+Concrete Demo and Removal
+Concrete Scanning
+Concrete Sealer
+Core Drilling
+Egress Windows
+Recent Posts
+
+5 Step Guide for Egress Window Projects
+
+Jan 16, 2024
+
+Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023
+
+Core Drilling Tips and Tricks
+
+Feb 7, 2021
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles
+
+######## https://asapconcreteutah.com/articles/f/core-drilling-tips-and-tricks 200
+TITLE: Core Drilling Tips and Tricks
+DESC: Core drilling can be easy if you have the right equipment, AND a good core drill bit. In the world of concrete cutting and core drilling, the more you spend on a bit or blade, the better it will perform.  There are plent...
+CANON: https://asapconcreteutah.com/articles/f/core-drilling-tips-and-tricks ROBOTS: null
+H: [{"tag":"H1","text":"Helpful Articles"},{"tag":"H3","text":"Core Drilling Tips and Tricks"},{"tag":"H4","text":"Recent Posts"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/blob-16d1c89.png/:/cr=t:9.33%25,l:7.86%25,w:64.94%25,h:64.94%25/rs=w:1280","alt":"Core Drilling Concrete, Boring Concrete Holes ","w":1246,"h":1662,"dw":298,"dh":398}]
+BG: ["linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_3200.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/concrete-sealer-water-repelling-v-seal-concret.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2335%202.jpg/:/rs=h:110,m,cg:true/cr=w:110\")"]
+FORMS: []
+TEL: [ 'tel:4357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com,blog.apps.secureserver.net
+IFRAMES: []
+FONTS: [ 'Helvetica, arial, sans-serif', 'Montserrat, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/articles/f/core-drilling-tips-and-tricks# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/articles/f/core-drilling-tips-and-tricks# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | https://asapconcreteutah.com/articles?blog=y [All Posts] | https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects [5 Step Guide for Egress Window Projects
+
+Jan 16, 2024] | https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete [Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023] | https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal [Concrete Demolition and Removal
+
+Feb 8, 2021] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+Helpful Articles
+
+If you have any questions about your projects, give us a call. We are happy to help! 
+
+All Posts
+Core Drilling Tips and Tricks
+February 7, 2021|Core Drilling
+
+Core drilling can be easy if you have the right equipment, AND a good core drill bit. In the world of concrete cutting and core drilling, the more you spend on a bit or blade, the better it will perform.  There are plenty of different kinds of core bits to choose from. You can get bits that drill fast, but don't last as long (Usually more expensive). Bits that drill slow, but last a long time. And bits in the middle that will drill fairly quick and have longer life.  My favorite are the ones that drill fast. The faster you drill, the faster you get done and can move onto the next job. 
+
+I've learned a few tricks on how to make core bits drill faster.  If you are core drilling and the bit doesn't seem to be drilling or is taking forever to drill, I've removed a segment or two off of the bit. This will decrease the surface area and allow the diamonds in the segment to put more pressure on the concrete. To remove a segment all you need is a hammer, pair of pliers, or just pinch an adjustable wrench on the segment and move it back and forth until the weld breaks. 
+
+Another option if you are struggling to drill in concrete is to try drilling block, brick, or asphalt for a little bit. These more abrasive materials will open up the diamonds in your segments and allow for quicker drilling in concrete. This also works with blades. After I cut asphalt, my blades cut much quicker in concrete. 
+
+Most core bits require water on them while drilling. This helps keep the bit cool, and pushes the sediment out of where your bit is drilling so the bit can keep it's speed. If you drill without water it could quickly ruin your bit. 
+
+One more thing you can try if the bit is struggling to drill is to add a little bit of sand into the hole where your bit is drilling. This will be more abrasive and hopefully open up the segments so the diamonds can continue to cut. 
+
+Share this post:
+
+Recent Posts
+
+5 Step Guide for Egress Window Projects
+
+Jan 16, 2024
+
+Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023
+
+Concrete Demolition and Removal
+
+Feb 8, 2021
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles
+
+######## https://asapconcreteutah.com/articles/f/locating-in-floor-heating 200
+TITLE: Locating In-Floor Heating
+DESC: In-Floor Heating can be a great addition when building a new home. These tubes have heated water running through them to keep your floors nice and warm.
+CANON: https://asapconcreteutah.com/articles/f/locating-in-floor-heating ROBOTS: null
+H: [{"tag":"H1","text":"Helpful Articles"},{"tag":"H3","text":"Locating In-Floor Heating"},{"tag":"H4","text":"Categories"},{"tag":"H4","text":"Recent Posts"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2678%202.jpg/:/rs=w:1280","alt":"In-Floor Heating Before Concrete Is Poured In Basement","w":1280,"h":1004,"dw":596,"dh":468}]
+BG: ["linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_3200.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/concrete-sealer-water-repelling-v-seal-concret.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2335%202.jpg/:/rs=h:110,m,cg:true/cr=w:110\")"]
+FORMS: []
+TEL: [ 'tel:4357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com,blog.apps.secureserver.net
+IFRAMES: []
+FONTS: [ 'Helvetica, arial, sans-serif', 'Montserrat, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/articles/f/locating-in-floor-heating# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/articles/f/locating-in-floor-heating# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | https://asapconcreteutah.com/articles?blog=y [All Posts] | https://asapconcreteutah.com/articles [All Posts] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Demo+and+Removal [Concrete Demo and Removal] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Scanning [Concrete Scanning] | https://asapconcreteutah.com/articles?blogcategory=Concrete+Sealer [Concrete Sealer] | https://asapconcreteutah.com/articles?blogcategory=Core+Drilling [Core Drilling] | https://asapconcreteutah.com/articles?blogcategory=Egress+Windows [Egress Windows] | https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects [5 Step Guide for Egress Window Projects
+
+Jan 16, 2024] | https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete [Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023] | https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal [Concrete Demolition and Removal
+
+Feb 8, 2021] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+Helpful Articles
+
+If you have any questions about your projects, give us a call. We are happy to help! 
+
+All Posts
+Locating In-Floor Heating
+January 7, 2021|Concrete Scanning
+
+In-Floor Heating Before Concrete Is Poured In Basement
+
+In-Floor Heating can be a great addition when building a new home. These tubes have heated water running through them to keep your floors nice and warm.
+
+A problem you don't want is to have the lines penetrated. If one of these lines get penetrated, you are in for a very expensive and difficult repair.  
+
+If you need to drill or anchor into concrete with in-floor heating underneath, it's best to know where these lines are and to stay as far away as possible from them. 
+
+Give us a call before you drill so we can help you locate these lines with our concrete scanner. The scanner will also show the thickness of the concrete so you know how deep you can drill before getting to the lines.
+
+Share this post:
+
+Categories
+All Posts
+Concrete Demo and Removal
+Concrete Scanning
+Concrete Sealer
+Core Drilling
+Egress Windows
+Recent Posts
+
+5 Step Guide for Egress Window Projects
+
+Jan 16, 2024
+
+Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023
+
+Concrete Demolition and Removal
+
+Feb 8, 2021
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles
+
+######## https://asapconcreteutah.com/articles/f/concrete-scanning 200
+TITLE: Concrete Scanning
+DESC:        We recently added concrete scanning to our services. This piece of equipment allows us to take a look inside and under the concrete. This scanner can detect conduit, pipe, post-tension cables, electrical wire, con...
+CANON: https://asapconcreteutah.com/articles/f/concrete-scanning ROBOTS: null
+H: [{"tag":"H1","text":"Helpful Articles"},{"tag":"H3","text":"Concrete Scanning"},{"tag":"H4","text":"Recent Posts"}]
+IMGS: [{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/ASAP%20Stand_Black%20(2).png/:/rs=w:284,h:87,cg:true,m/cr=w:284,h:87/qt=q:95","alt":"ASAP Concrete Cutting","w":284,"h":87,"dw":284,"dh":87},{"src":"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2049%202.jpg/:/rs=w:1280","alt":"","w":1280,"h":1162,"dw":596,"dh":541}]
+BG: ["linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_3200.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/concrete-sealer-water-repelling-v-seal-concret.jpg/:/rs=h:110,m,cg:true/cr=w:110\")","linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), url(\"https://img1.wsimg.com/isteam/ip/7d6c114f-42bd-4172-bc0f-72d5d7c18a9e/IMG_2335%202.jpg/:/rs=h:110,m,cg:true/cr=w:110\")"]
+FORMS: []
+TEL: [ 'tel:4357600806' ] MAIL: []
+JSONLD: 0
+3P: img1.wsimg.com,www.googletagmanager.com,asapconcreteutah.com,www.google-analytics.com,blog.apps.secureserver.net
+IFRAMES: []
+FONTS: [ 'Helvetica, arial, sans-serif', 'Montserrat, sans-serif' ]
+LINKS: tel:4357600806 [(435) 760-0806] | https://asapconcreteutah.com/ [] | https://asapconcreteutah.com/articles/f/concrete-scanning# [] | https://asapconcreteutah.com/ [Home] | https://asapconcreteutah.com/contact-us [Contact Us] | https://asapconcreteutah.com/services [Services] | https://asapconcreteutah.com/articles [Articles] | https://asapconcreteutah.com/articles/f/concrete-scanning# [More] | https://asapconcreteutah.com/contact-us [] | https://asapconcreteutah.com/services [] | https://asapconcreteutah.com/articles [] | https://asapconcreteutah.com/articles?blog=y [All Posts] | https://asapconcreteutah.com/articles/f/5-step-guide-for-egress-window-projects [5 Step Guide for Egress Window Projects
+
+Jan 16, 2024] | https://asapconcreteutah.com/articles/f/why-should-you-seal-your-concrete [Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023] | https://asapconcreteutah.com/articles/f/concrete-demolition-and-removal [Concrete Demolition and Removal
+
+Feb 8, 2021] | https://www.facebook.com/profile.php?id=100066160496885 [] | https://www.instagram.com/asapconcretecutting [] | https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base []
+TEXT:
+Call or Text (435) 760-0806
+
+Home
+Contact Us
+Services
+Articles
+Helpful Articles
+
+If you have any questions about your projects, give us a call. We are happy to help! 
+
+All Posts
+Concrete Scanning
+July 12, 2020|Concrete Scanning
+
+       We recently added concrete scanning to our services. This piece of equipment allows us to take a look inside and under the concrete. This scanner can detect conduit, pipe, post-tension cables, electrical wire, concrete thickness, wire mesh, and rebar!  It is important to know what is under the concrete to make your project go smoothly. Scanning concrete can save you money and help you plan your project. Cutting through unexpected conduit can add an extra expense that you might not have had in the bid for your project. It is also important to know what structural reinforcement you have in your concrete for remodels to ensure that the structure is stable.  
+
+Share this post:
+
+Recent Posts
+
+5 Step Guide for Egress Window Projects
+
+Jan 16, 2024
+
+Does Your Concrete Need To Be Sealed?
+
+Jan 10, 2023
+
+Concrete Demolition and Removal
+
+Feb 8, 2021
+
+Copyright © 2025 ASAP Concrete Cutting - All Rights Reserved.
+
+Powered by
+
+Contact UsServicesArticles

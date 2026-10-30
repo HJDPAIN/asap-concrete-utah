@@ -13,5 +13,5 @@ export default defineConfig({
       filter: (page) => !page.includes('/thank-you/') && !page.includes('/404'),
     }),
   ],
-  vite: { plugins: [tailwindcss()] },
+  vite: { plugins: [tailwindcss()], build: { assetsInlineLimit: 0 } },
 });

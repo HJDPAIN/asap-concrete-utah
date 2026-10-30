@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+
+Sitemap: https://asap-concrete-utah-preview.netlify.app/sitemap-index.xml

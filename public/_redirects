@@ -1,0 +1,20 @@
+# Old GoDaddy URLs -> new structure (301)
+/contact-us                                              /contact/                                   301
+/contact-us/                                             /contact/                                   301
+/articles                                                /resources/                                 301
+/articles/                                               /resources/                                 301
+/articles/f/5-step-guide-for-egress-window-projects      /resources/egress-window-guide/             301
+/articles/f/why-should-you-seal-your-concrete            /resources/why-seal-concrete/               301
+/articles/f/concrete-demolition-and-removal              /resources/concrete-demolition-and-removal/ 301
+/articles/f/core-drilling-tips-and-tricks                /resources/core-drilling-tips/              301
+/articles/f/locating-in-floor-heating                    /resources/locating-in-floor-heating/       301
+/articles/f/concrete-scanning                            /resources/concrete-scanning/               301
+/articles/f/*                                            /resources/                                 301
+/ols/products                                            /services/                                  301
+/ols/*                                                   /services/                                  301
+/f.atom                                                  /resources/                                 301
+/f.rss                                                   /resources/                                 301
+/f.json                                                  /resources/                                 301
+/sitemap.website.xml                                     /sitemap-index.xml                          301
+/sitemap.blog.xml                                        /sitemap-index.xml                          301
+/sitemap.ols.xml                                         /sitemap-index.xml                          301

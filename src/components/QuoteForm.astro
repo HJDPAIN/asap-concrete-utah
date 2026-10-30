@@ -69,7 +69,10 @@ const services = (await getCollection('services')).sort((a, b) => a.data.order -
     fields.forEach(f => { f.addEventListener('blur', () => check(f)); f.addEventListener('input', () => { if (f.getAttribute('aria-invalid') === 'true') check(f); }); });
     form.addEventListener('submit', e => {
       const bad = fields.filter(f => !check(f));
-      if (bad.length) { e.preventDefault(); bad[0].focus(); }
+      if (bad.length) { e.preventDefault(); bad[0].focus(); return; }
+      // Netlify drops multipart submissions that include an empty file part.
+      const photo = form.querySelector<HTMLInputElement>('#photo');
+      if (photo && !photo.files?.length) photo.disabled = true;
     });
   }
 </script>

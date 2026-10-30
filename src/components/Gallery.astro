@@ -1,0 +1,52 @@
+---
+import { Picture } from 'astro:assets';
+import Icon from './Icon.astro';
+import { img } from '../lib/images';
+interface Item { key: string; alt: string; caption: string; service?: string; href?: string }
+interface Props { items: Item[]; id?: string }
+const { items, id = 'gallery' } = Astro.props;
+---
+<ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3" role="list" data-gallery={id}>
+  {items.map((it, i) => { const m = img(it.key)!; return (
+    <li class="card overflow-hidden p-0">
+      <button type="button" class="group block w-full text-left" data-lightbox-open={i} aria-label={`Open larger photo: ${it.caption}`}>
+        <Picture src={m} alt={it.alt} widths={[400, 800, 1200]} sizes="(min-width:1024px) 380px, (min-width:640px) 50vw, 100vw" formats={['avif','webp']} class="aspect-[4/3] w-full object-cover transition-transform duration-200 group-hover:scale-[1.02] motion-reduce:transition-none" loading="lazy" decoding="async" />
+      </button>
+      <div class="p-4">
+        <p class="font-semibold text-ink-950">{it.caption}</p>
+        {it.service && it.href && <a href={it.href} class="mt-1 inline-flex min-h-8 items-center gap-1 text-sm font-semibold text-brand-700 hover:underline underline-offset-4">{it.service} <Icon name="arrow" class="h-3.5 w-3.5" /></a>}
+      </div>
+    </li>
+  ); })}
+</ul>
+<dialog id={`${id}-lightbox`} class="m-auto max-h-dvh max-w-[100vw] bg-transparent p-0 backdrop:bg-ink-950/90" aria-label="Photo viewer">
+  <div class="relative flex h-dvh w-screen flex-col items-center justify-center p-4">
+    <button type="button" class="absolute right-4 top-4 inline-flex h-12 w-12 items-center justify-center rounded-full bg-white text-ink-950 hover:bg-ink-100" data-lb-close aria-label="Close photo viewer"><Icon name="close" class="h-6 w-6" /></button>
+    <button type="button" class="absolute left-2 top-1/2 inline-flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white text-ink-950 hover:bg-ink-100 sm:left-4" data-lb-prev aria-label="Previous photo"><Icon name="arrow" class="h-6 w-6 rotate-180" /></button>
+    <button type="button" class="absolute right-2 top-1/2 inline-flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full bg-white text-ink-950 hover:bg-ink-100 sm:right-4" data-lb-next aria-label="Next photo"><Icon name="arrow" class="h-6 w-6" /></button>
+    <figure class="flex max-h-full max-w-5xl flex-col items-center">
+      <img data-lb-img src="" alt="" class="max-h-[80dvh] w-auto max-w-full rounded-lg object-contain" width="1200" height="900" />
+      <figcaption data-lb-cap class="mt-3 text-center text-white"></figcaption>
+    </figure>
+  </div>
+  <template data-lb-items>{items.map(it => { const m = img(it.key)!; return <span data-src={m.src} data-alt={it.alt} data-cap={it.caption} data-w={m.width} data-h={m.height}></span>; })}</template>
+</dialog>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(list => {
+    const id = list.dataset.gallery!;
+    const dlg = document.getElementById(`${id}-lightbox`) as HTMLDialogElement;
+    if (!dlg) return;
+    const items = Array.from((dlg.querySelector('[data-lb-items]') as HTMLTemplateElement).content.querySelectorAll('span')).map(s => ({ src: s.dataset.src!, alt: s.dataset.alt!, cap: s.dataset.cap!, w: s.dataset.w!, h: s.dataset.h! }));
+    const imgEl = dlg.querySelector<HTMLImageElement>('[data-lb-img]')!;
+    const cap = dlg.querySelector<HTMLElement>('[data-lb-cap]')!;
+    let idx = 0; let opener: HTMLElement | null = null;
+    const show = (i: number) => { idx = (i + items.length) % items.length; const it = items[idx]; imgEl.src = it.src; imgEl.alt = it.alt; imgEl.width = +it.w; imgEl.height = +it.h; cap.textContent = `${it.cap} (${idx + 1} of ${items.length})`; };
+    list.querySelectorAll<HTMLButtonElement>('[data-lightbox-open]').forEach(b => b.addEventListener('click', () => { opener = b; show(+b.dataset.lightboxOpen!); dlg.showModal(); (dlg.querySelector('[data-lb-close]') as HTMLElement).focus(); }));
+    dlg.querySelector('[data-lb-close]')!.addEventListener('click', () => dlg.close());
+    dlg.querySelector('[data-lb-prev]')!.addEventListener('click', () => show(idx - 1));
+    dlg.querySelector('[data-lb-next]')!.addEventListener('click', () => show(idx + 1));
+    dlg.addEventListener('keydown', e => { if (e.key === 'ArrowLeft') show(idx - 1); if (e.key === 'ArrowRight') show(idx + 1); });
+    dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener('close', () => { opener?.focus(); });
+  });
+</script>

@@ -1,0 +1,17 @@
+---
+import Icon from './Icon.astro';
+const items = [
+  { icon: 'pin', t: 'Based in Logan, UT', d: 'Cache Valley to Salt Lake City' },
+  { icon: 'clock', t: 'Fast scheduling', d: 'Same-day when the calendar allows' },
+  { icon: 'star', t: '5-star reviews', d: 'From homeowners and contractors' },
+  { icon: 'scanner', t: 'Scan before we cut', d: 'Find rebar, pipe and wire first' },
+];
+---
+<ul class="grid grid-cols-2 gap-x-4 gap-y-6 border-y border-ink-200 py-6 lg:grid-cols-4" role="list" aria-label="Why choose us">
+  {items.map(i => (
+    <li class="flex gap-3">
+      <span class="mt-0.5 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand-700"><Icon name={i.icon} class="h-5 w-5" /></span>
+      <div><p class="font-semibold text-ink-950">{i.t}</p><p class="text-sm text-ink-500">{i.d}</p></div>
+    </li>
+  ))}
+</ul>

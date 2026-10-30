@@ -1,0 +1,56 @@
+---
+import Logo from './Logo.astro';
+import Icon from './Icon.astro';
+import { biz, nav } from '../lib/site';
+const path = Astro.url.pathname;
+const isActive = (href: string) => href === '/' ? path === '/' : path.startsWith(href);
+---
+<header class="sticky top-0 z-40 border-b border-ink-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/85">
+  <div class="container-x flex h-16 items-center justify-between gap-4 lg:h-20">
+    <a href="/" class="flex items-center gap-2 rounded-sm" aria-label={`${biz.name} home`}>
+      <Logo class="h-9 w-auto text-ink-950 lg:h-10" />
+    </a>
+    <nav aria-label="Primary" class="hidden lg:block">
+      <ul class="flex items-center gap-1">
+        {nav.map(n => (
+          <li><a href={n.href} aria-current={isActive(n.href) ? 'page' : undefined} class:list={["inline-flex min-h-11 items-center whitespace-nowrap rounded-lg px-2.5 xl:px-3 font-semibold text-ink-700 hover:bg-ink-100 hover:text-ink-950", isActive(n.href) && "text-brand-700"]}>{n.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href={biz.phoneHref} class="btn-primary hidden whitespace-nowrap sm:inline-flex" aria-label={`Call ${biz.phone}`}><Icon name="phone" class="h-5 w-5" /><span class="lg:hidden xl:inline">{biz.phone}</span><span class="hidden lg:inline xl:hidden">Call</span></a>
+      <a href="/contact/" class="btn-secondary hidden whitespace-nowrap lg:inline-flex">Free Quote</a>
+      <button type="button" class="inline-flex h-11 w-11 items-center justify-center rounded-lg text-ink-950 hover:bg-ink-100 lg:hidden" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false" data-menu-open>
+        <Icon name="menu" class="h-7 w-7" />
+      </button>
+    </div>
+  </div>
+  <dialog id="mobile-menu" class="m-0 ml-auto h-dvh max-h-dvh w-[min(100vw,22rem)] max-w-full bg-white p-0 shadow-2xl backdrop:bg-ink-950/50 open:flex open:flex-col" aria-label="Menu">
+    <div class="flex h-16 items-center justify-between border-b border-ink-200 px-4">
+      <span class="font-display text-lg font-bold text-ink-950">Menu</span>
+      <button type="button" class="inline-flex h-11 w-11 items-center justify-center rounded-lg text-ink-950 hover:bg-ink-100" aria-label="Close menu" data-menu-close><Icon name="close" class="h-7 w-7" /></button>
+    </div>
+    <nav aria-label="Mobile" class="flex-1 overflow-y-auto p-4">
+      <ul class="flex flex-col">
+        <li><a href="/" class="block rounded-lg px-3 py-3 text-lg font-semibold text-ink-950 hover:bg-ink-100">Home</a></li>
+        {nav.map(n => (<li><a href={n.href} aria-current={isActive(n.href) ? 'page' : undefined} class="block rounded-lg px-3 py-3 text-lg font-semibold text-ink-950 hover:bg-ink-100">{n.label}</a></li>))}
+      </ul>
+    </nav>
+    <div class="grid gap-3 border-t border-ink-200 p-4">
+      <a href={biz.phoneHref} class="btn-primary"><Icon name="phone" class="h-5 w-5" />{biz.phoneNote} {biz.phone}</a>
+      <a href="/contact/" class="btn-secondary">Get a Free Quote</a>
+    </div>
+  </dialog>
+</header>
+<script>
+  const dlg = document.getElementById('mobile-menu') as HTMLDialogElement | null;
+  const openBtn = document.querySelector<HTMLButtonElement>('[data-menu-open]');
+  if (dlg && openBtn) {
+    openBtn.addEventListener('click', () => { dlg.showModal(); openBtn.setAttribute('aria-expanded', 'true'); document.body.style.overflow = 'hidden'; });
+    const close = () => { dlg.close(); };
+    dlg.querySelector('[data-menu-close]')?.addEventListener('click', close);
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) close(); });
+    dlg.addEventListener('close', () => { openBtn.setAttribute('aria-expanded', 'false'); document.body.style.overflow = ''; });
+    dlg.querySelectorAll('a').forEach(a => a.addEventListener('click', close));
+  }
+</script>

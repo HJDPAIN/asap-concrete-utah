@@ -1,0 +1,84 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import StickyBar from '../components/StickyBar.astro';
+import { biz, abs } from '../lib/site';
+import ogDefault from '../assets/images/truck-commercial-site.jpg';
+import { getImage } from 'astro:assets';
+
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: ImageMetadata;
+  noindex?: boolean;
+  schema?: Record<string, unknown>[];
+}
+const { title, description, ogImage = ogDefault, noindex = false, schema = [] } = Astro.props;
+const canonical = abs(Astro.url.pathname);
+const og = await getImage({ src: ogImage, width: 1200, height: 630, format: 'jpg', fit: 'cover' });
+const fullTitle = title.includes(biz.name) ? title : `${title} | ${biz.name}`;
+
+const localBusiness = {
+  '@context': 'https://schema.org',
+  '@type': ['GeneralContractor', 'LocalBusiness'],
+  '@id': abs('/#business'),
+  name: biz.name,
+  url: biz.siteUrl,
+  telephone: '+1-435-760-0806',
+  image: abs(og.src),
+  logo: abs('/icons/icon-512.png'),
+  address: { '@type': 'PostalAddress', addressLocality: biz.city, addressRegion: biz.state, addressCountry: 'US' },
+  areaServed: biz.serviceAreas.map(a => ({ '@type': 'Place', name: `${a.name}` })),
+  sameAs: [biz.social.facebook, biz.social.instagram],
+  priceRange: '$$',
+  slogan: biz.tagline,
+};
+const graph = [localBusiness, ...schema];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={biz.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={abs(og.src)} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={abs(og.src)} />
+    <meta name="theme-color" content="#0B1220" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {graph.map(g => <script type="application/ld+json" set:html={JSON.stringify(g)} />)}
+    <!--
+      Analytics slot (intentionally disabled in the preview).
+      Live site used GA4 G-HNYVBE79LV. To enable, uncomment and allow googletagmanager.com in netlify.toml CSP.
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-HNYVBE79LV"></script>
+      <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HNYVBE79LV');</script>
+    -->
+  </head>
+  <body class="pb-20 lg:pb-0">
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-ink-950 focus:px-4 focus:py-3 focus:text-white">Skip to main content</a>
+    <Header />
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <Footer />
+    <StickyBar />
+  </body>
+</html>

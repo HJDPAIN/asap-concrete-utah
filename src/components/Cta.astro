@@ -1,0 +1,18 @@
+---
+import Icon from './Icon.astro';
+import { biz } from '../lib/site';
+interface Props { title?: string; text?: string; }
+const { title = 'Ready to get it cut?', text = 'Tell us where the job is, how thick the concrete is, and what needs to be cut or drilled. Free quotes. Same-day scheduling when the calendar allows.' } = Astro.props;
+---
+<section class="bg-ink-950 text-white">
+  <div class="container-x section flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+    <div class="max-w-[48ch]">
+      <h2 class="text-white">{title}</h2>
+      <p class="mt-3 text-lg text-ink-200">{text}</p>
+    </div>
+    <div class="flex flex-col gap-3 sm:flex-row">
+      <a href={biz.phoneHref} class="btn-primary text-lg px-6"><Icon name="phone" class="h-5 w-5" />{biz.phone}</a>
+      <a href="/contact/" class="btn-dark text-lg px-6">Get a Free Quote</a>
+    </div>
+  </div>
+</section>

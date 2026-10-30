@@ -1,0 +1,25 @@
+---
+const steps = [
+  { t: 'Tell us about the job', d: 'Call, text or send the form. Where is it, how thick is the concrete, and what needs cut or drilled? Photos help.' },
+  { t: 'Get a free quote', d: 'We price it from your details and tell you honestly when we can be there.' },
+  { t: 'We cut on your schedule', d: 'We show up on time with the right saw, drill or scanner for the job and get it done.' },
+  { t: 'Clean site, next trade ready', d: 'Slurry contained, concrete removed if you asked for it, and the opening ready for the plumber, window installer or framer.' },
+];
+---
+<section class="section" aria-labelledby="process-title">
+  <div class="container-x">
+    <div class="max-w-[48ch]">
+      <p class="eyebrow">How it works</p>
+      <h2 id="process-title" class="mt-2">Four steps from call to clean cut</h2>
+    </div>
+    <ol class="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+      {steps.map((s, i) => (
+        <li class="relative">
+          <span class="flex h-12 w-12 items-center justify-center rounded-full bg-brand-700 font-display text-xl font-bold text-white" aria-hidden="true">{i + 1}</span>
+          <h3 class="mt-4">{s.t}</h3>
+          <p class="mt-2">{s.d}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

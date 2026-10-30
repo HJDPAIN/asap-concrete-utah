@@ -1,0 +1,75 @@
+---
+import { getCollection } from 'astro:content';
+const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
+---
+<form name="quote" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" class="grid gap-5" novalidate>
+  <input type="hidden" name="form-name" value="quote" />
+  <p class="hidden"><label>Don’t fill this out if you’re human: <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+  <div class="grid gap-5 sm:grid-cols-2">
+    <div>
+      <label for="name" class="block font-semibold text-ink-950">Name <span class="text-cta-600" aria-hidden="true">*</span></label>
+      <input id="name" name="name" type="text" required autocomplete="name" class="field" aria-describedby="name-err" />
+      <p id="name-err" class="err" hidden>Please enter your name.</p>
+    </div>
+    <div>
+      <label for="phone" class="block font-semibold text-ink-950">Phone <span class="text-cta-600" aria-hidden="true">*</span></label>
+      <input id="phone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" class="field" aria-describedby="phone-err phone-hint" />
+      <p id="phone-hint" class="hint">We’ll call or text to confirm details.</p>
+      <p id="phone-err" class="err" hidden>Please enter a phone number we can reach you at.</p>
+    </div>
+  </div>
+  <div class="grid gap-5 sm:grid-cols-2">
+    <div>
+      <label for="email" class="block font-semibold text-ink-950">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" inputmode="email" class="field" aria-describedby="email-err" />
+      <p id="email-err" class="err" hidden>That email doesn’t look right.</p>
+    </div>
+    <div>
+      <label for="service" class="block font-semibold text-ink-950">Service <span class="text-cta-600" aria-hidden="true">*</span></label>
+      <select id="service" name="service" required class="field" aria-describedby="service-err">
+        <option value="">Choose one…</option>
+        {services.map(s => <option value={s.data.title}>{s.data.title}</option>)}
+        <option value="Not sure">Not sure, help me decide</option>
+      </select>
+      <p id="service-err" class="err" hidden>Please pick a service.</p>
+    </div>
+  </div>
+  <div>
+    <label for="location" class="block font-semibold text-ink-950">City or ZIP of the job <span class="text-cta-600" aria-hidden="true">*</span></label>
+    <input id="location" name="location" type="text" required autocomplete="postal-code" class="field" aria-describedby="location-err" />
+    <p id="location-err" class="err" hidden>Where is the job? A city or ZIP is enough.</p>
+  </div>
+  <div>
+    <label for="details" class="block font-semibold text-ink-950">Project details <span class="text-cta-600" aria-hidden="true">*</span></label>
+    <textarea id="details" name="details" rows="5" required class="field" aria-describedby="details-hint details-err"></textarea>
+    <p id="details-hint" class="hint">Concrete thickness, how many feet need cut, core hole size, what’s under the slab, access for equipment.</p>
+    <p id="details-err" class="err" hidden>A few details help us quote accurately.</p>
+  </div>
+  <div>
+    <label for="photo" class="block font-semibold text-ink-950">Photo <span class="font-normal text-ink-500">(optional)</span></label>
+    <input id="photo" name="photo" type="file" accept="image/*" class="mt-1 block w-full text-ink-700 file:mr-3 file:rounded-lg file:border file:border-ink-300 file:bg-white file:px-4 file:py-2 file:font-semibold file:text-ink-950" aria-describedby="photo-hint" />
+    <p id="photo-hint" class="hint">A picture of the slab or wall speeds up the quote. Max 8 MB.</p>
+  </div>
+  <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
+    <button type="submit" class="btn-primary text-lg px-8">Send my quote request</button>
+    <p class="text-sm text-ink-500">No spam. We only use this to reply about your job.</p>
+  </div>
+</form>
+<script>
+  const form = document.querySelector<HTMLFormElement>('form[name="quote"]');
+  if (form) {
+    const fields = Array.from(form.querySelectorAll<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>('.field'));
+    const check = (f: typeof fields[number]) => {
+      const err = document.getElementById(`${f.id}-err`);
+      const ok = f.checkValidity();
+      f.setAttribute('aria-invalid', ok ? 'false' : 'true');
+      if (err) err.hidden = ok;
+      return ok;
+    };
+    fields.forEach(f => { f.addEventListener('blur', () => check(f)); f.addEventListener('input', () => { if (f.getAttribute('aria-invalid') === 'true') check(f); }); });
+    form.addEventListener('submit', e => {
+      const bad = fields.filter(f => !check(f));
+      if (bad.length) { e.preventDefault(); bad[0].focus(); }
+    });
+  }
+</script>

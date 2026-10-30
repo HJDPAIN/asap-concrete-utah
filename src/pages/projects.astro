@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Gallery from '../components/Gallery.astro';
+import Placeholder from '../components/Placeholder.astro';
+import Cta from '../components/Cta.astro';
+import { galleryItems } from '../lib/gallery';
+import { breadcrumbSchema } from '../lib/schema';
+import { abs } from '../lib/site';
+import { img } from '../lib/images';
+const crumbs = [{ label: 'Projects', href: '/projects/' }];
+const gallerySchema = { '@context': 'https://schema.org', '@type': 'ImageGallery', name: 'ASAP Concrete Cutting projects', image: galleryItems.map(g => abs(img(g.key)!.src)) };
+---
+<Base title="Projects: Concrete Cutting Photos from Northern Utah" description="Photos from real ASAP Concrete Cutting jobs: egress windows, core drilling, slab trenches, wall sawing and demolition across Cache Valley and the Wasatch Front." schema={[breadcrumbSchema(crumbs), gallerySchema]}>
+  <PageHeader title="Recent projects" intro="Every photo here is from one of our own jobs. Tap any photo to see it larger." crumbs={crumbs} eyebrow="Projects" />
+  <section class="section">
+    <div class="container-x">
+      <Gallery items={galleryItems} id="projects" />
+      <h2 class="mt-16 text-2xl">Photos we still need</h2>
+      <p class="mt-2 max-w-[60ch]">These services are offered but not pictured yet. Placeholders are shown so nothing is faked.</p>
+      <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <Placeholder label="Photo needed: curb cut" /><Placeholder label="Photo needed: green cutting" /><Placeholder label="Photo needed: grinding" /><Placeholder label="Photo needed: driveway cleaning" />
+      </div>
+    </div>
+  </section>
+  <Cta />
+</Base>

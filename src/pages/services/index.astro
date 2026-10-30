@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import ServiceGrid from '../../components/ServiceGrid.astro';
+import Cta from '../../components/Cta.astro';
+import { breadcrumbSchema } from '../../lib/schema';
+import { abs } from '../../lib/site';
+const services = (await getCollection('services')).sort((a, b) => a.data.order - b.data.order);
+const crumbs = [{ label: 'Services', href: '/services/' }];
+const itemList = { '@context': 'https://schema.org', '@type': 'ItemList', itemListElement: services.map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.data.title, url: abs(`/services/${s.data.slug}/`) })) };
+---
+<Base title="Concrete Cutting Services in Logan & Northern Utah" description="Flat sawing, wall sawing, core drilling, concrete scanning, demolition, curb cutting, green cutting, grinding, sealing and cleaning. Free quotes from ASAP Concrete Cutting." schema={[breadcrumbSchema(crumbs), itemList]}>
+  <PageHeader title="Concrete cutting services" intro="Everything we do, in plain terms. Not sure which one you need? Call and describe the job. We will tell you." crumbs={crumbs} eyebrow="Services" />
+  <ServiceGrid heading={false} />
+  <Cta />
+</Base>

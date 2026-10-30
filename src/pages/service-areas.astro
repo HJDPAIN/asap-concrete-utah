@@ -1,0 +1,31 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Cta from '../components/Cta.astro';
+import Icon from '../components/Icon.astro';
+import { biz } from '../lib/site';
+import { breadcrumbSchema } from '../lib/schema';
+const crumbs = [{ label: 'Service Areas', href: '/service-areas/' }];
+---
+<Base title="Service Areas: Cache Valley, Bear Lake, Ogden & Salt Lake" description="ASAP Concrete Cutting is based in Logan, UT and serves Cache Valley, Bear Lake, Southern Idaho, Brigham City, Ogden and Salt Lake City. Willing to travel further. Call (435) 760-0806." schema={[breadcrumbSchema(crumbs)]}>
+  <PageHeader title="Where we work" intro={`Based in ${biz.city}, ${biz.stateFull}. We cover Northern Utah and Southern Idaho, and we are ${biz.travelNote.charAt(0).toLowerCase() + biz.travelNote.slice(1)}`} crumbs={crumbs} eyebrow="Service areas" />
+  <section class="section">
+    <div class="container-x grid gap-10 lg:grid-cols-[2fr_1fr]">
+      <ul class="grid gap-4 sm:grid-cols-2" role="list">
+        {biz.serviceAreas.map(a => <li class="card flex items-start gap-3"><Icon name="pin" class="mt-1 h-6 w-6 shrink-0 text-brand-700" /><div><h2 class="text-xl">{a.name}</h2><p class="mt-1">{a.note}</p></div></li>)}
+      </ul>
+      <div class="grid content-start gap-6">
+        <div class="card">
+          <h2 class="text-xl">Outside these areas?</h2>
+          <p class="mt-2">Call anyway. We regularly take jobs beyond this list. Travel may be built into the quote for far-out work. <span class="text-ink-700">[TODO: confirm with client how travel is priced]</span></p>
+          <a href={biz.phoneHref} class="btn-primary mt-4 w-full"><Icon name="phone" class="h-5 w-5" />{biz.phone}</a>
+        </div>
+        <div class="card">
+          <h2 class="text-xl">What to have ready</h2>
+          <ul class="mt-2 list-disc pl-5 space-y-1"><li>Job address or city</li><li>Concrete thickness</li><li>Feet to cut or hole sizes</li><li>Photos, if you have them</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <Cta />
+</Base>

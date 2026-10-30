@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import { biz } from '../lib/site';
+const crumbs = [{ label: 'Privacy Policy', href: '/privacy/' }];
+---
+<Base title="Privacy Policy" description="Privacy policy for the ASAP Concrete Cutting website." noindex>
+  <PageHeader title="Privacy policy" crumbs={crumbs} />
+  <section class="section"><div class="container-x prose-body">
+    <p class="rounded-lg bg-ink-100 p-4 text-base text-ink-700">[TODO: confirm with client] This is a placeholder, not legal advice. Replace with a reviewed policy before launch.</p>
+    <h2>What we collect</h2>
+    <p>When you send the quote form, we receive the name, phone, email, location, project details and any photo you choose to include. The form is processed by Netlify Forms on our behalf.</p>
+    <h2>How we use it</h2>
+    <p>Only to reply about your project and schedule work. We do not sell or share it for marketing.</p>
+    <h2>Analytics</h2>
+    <p>This preview site runs no analytics or tracking scripts. If analytics are enabled at launch, this section will describe them.</p>
+    <h2>Contact</h2>
+    <p>Questions about your data: call {biz.phone}.</p>
+  </div></section>
+</Base>

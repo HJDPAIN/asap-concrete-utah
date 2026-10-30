@@ -1,0 +1,99 @@
+---
+import { Picture } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import TrustStrip from '../components/TrustStrip.astro';
+import ServiceGrid from '../components/ServiceGrid.astro';
+import Steps from '../components/Steps.astro';
+import Reviews from '../components/Reviews.astro';
+import Gallery from '../components/Gallery.astro';
+import Faq from '../components/Faq.astro';
+import Cta from '../components/Cta.astro';
+import faqs from '../content/faqs.json';
+import { biz } from '../lib/site';
+import { faqSchema } from '../lib/schema';
+import hero from '../assets/images/core-drilling-skid-steer.jpg';
+import scanner from '../assets/images/gpr-concrete-scanner.jpg';
+import { galleryItems } from '../lib/gallery';
+---
+<Base title="Concrete Cutting, Core Drilling & Scanning in Logan, UT" description="ASAP Concrete Cutting saws, cores, scans and removes concrete across Cache Valley, Bear Lake, Brigham City, Ogden and Salt Lake City. Free quotes. Call or text (435) 760-0806." schema={[faqSchema(faqs)]} ogImage={hero}>
+  <section class="relative overflow-hidden bg-ink-950 text-white">
+    <div class="container-x grid items-center gap-10 py-14 md:py-20 lg:grid-cols-[1.1fr_1fr] lg:py-28">
+      <div>
+        <p class="eyebrow !text-brand-500">Logan, Utah · Cache Valley to Salt Lake</p>
+        <h1 class="mt-3 text-white">Concrete cut, cored and scanned. <span class="text-brand-500">Fast.</span></h1>
+        <p class="mt-5 max-w-[52ch] text-lg md:text-xl text-ink-200">Wall sawing, flat sawing, core drilling, scanning and demolition for homeowners and contractors. Tell us the job and we will tell you when we can be there.</p>
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a href={biz.phoneHref} class="btn-primary text-lg px-6"><Icon name="phone" class="h-5 w-5" />{biz.phoneNote} {biz.phone}</a>
+          <a href="/contact/" class="btn-dark text-lg px-6">Get a Free Quote</a>
+        </div>
+        <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-ink-200" aria-label="Highlights">
+          <li class="inline-flex items-center gap-2"><Icon name="check" class="h-4 w-4 text-brand-500" />Free quotes</li>
+          <li class="inline-flex items-center gap-2"><Icon name="check" class="h-4 w-4 text-brand-500" />Residential and commercial</li>
+          <li class="inline-flex items-center gap-2"><Icon name="check" class="h-4 w-4 text-brand-500" />Cut, remove and haul away</li>
+        </ul>
+      </div>
+      <div class="relative">
+        <Picture src={hero} alt="ASAP Concrete Cutting operator core drilling a concrete slab beside a skid steer on a commercial site" widths={[480, 768, 1100]} sizes="(min-width:1024px) 560px, 100vw" formats={['avif','webp']} loading="eager" fetchpriority="high" decoding="async" class="aspect-[4/3] w-full rounded-2xl object-cover shadow-2xl lg:aspect-[5/4]" />
+        <p class="absolute bottom-3 left-3 rounded-lg bg-ink-950/80 px-3 py-1.5 text-sm text-white backdrop-blur">Core drilling, Northern Utah</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-x"><TrustStrip /></div>
+
+  <ServiceGrid />
+
+  <section class="section bg-ink-50" aria-labelledby="why-title">
+    <div class="container-x grid gap-10 lg:grid-cols-2 lg:items-center">
+      <div>
+        <p class="eyebrow">Why ASAP</p>
+        <h2 id="why-title" class="mt-2">Show up on time, cut it right, leave it clean</h2>
+        <ul class="mt-6 grid gap-5">
+          {[
+            ['The right tool for each cut', 'Track-mounted wall saw, walk-behind and electric flat saws, core drills, ring saw, skid-steer breaker and a concrete scanner. One call covers the whole job.'],
+            ['We can see inside the slab', 'Our scanner finds rebar, conduit, pipe, post-tension cables and in-floor heat before we cut, so there are no expensive surprises.'],
+            ['Cut, remove, haul', 'If you want the concrete gone, we break it out and haul it off so the site is ready for the next trade.'],
+            ['Homeowners and contractors', 'Egress windows and trenches for homeowners. Sawing, coring and demo for GCs, plumbers and electricians.'],
+          ].map(([t, d]) => (
+            <li class="flex gap-4"><span class="mt-1 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-700 text-white"><Icon name="check" class="h-4 w-4" /></span><div><h3 class="text-lg">{t}</h3><p class="mt-1">{d}</p></div></li>
+          ))}
+        </ul>
+      </div>
+      <div class="card overflow-hidden p-0">
+        <Picture src={scanner} alt="Ground-penetrating radar concrete scanner used to locate rebar and conduit before cutting" widths={[480, 768, 1100]} sizes="(min-width:1024px) 560px, 100vw" formats={['avif','webp']} loading="lazy" decoding="async" class="aspect-[4/3] w-full object-cover" />
+        <div class="p-6">
+          <h3>Scan before you cut</h3>
+          <p class="mt-2">Hitting a conduit or an in-floor heat line turns a quick job into an expensive repair. A scan takes minutes and marks exactly where it is safe to cut or drill.</p>
+          <a href="/services/concrete-scanning/" class="mt-3 inline-flex min-h-11 items-center gap-1 font-semibold text-brand-700 hover:underline underline-offset-4">About concrete scanning <Icon name="arrow" class="h-4 w-4" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Steps />
+
+  <section class="section bg-ink-50" aria-labelledby="projects-title">
+    <div class="container-x">
+      <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+        <div class="max-w-[48ch]"><p class="eyebrow">Recent work</p><h2 id="projects-title" class="mt-2">Real jobs, real photos</h2></div>
+        <a href="/projects/" class="btn-ghost self-start md:self-auto">All projects <Icon name="arrow" class="h-4 w-4" /></a>
+      </div>
+      <div class="mt-10"><Gallery items={galleryItems.slice(0, 6)} id="home-gallery" /></div>
+    </div>
+  </section>
+
+  <Reviews />
+
+  <section class="section" aria-labelledby="areas-title">
+    <div class="container-x grid gap-8 lg:grid-cols-[1fr_2fr]">
+      <div><p class="eyebrow">Service areas</p><h2 id="areas-title" class="mt-2">Based in Logan. We travel.</h2><p class="mt-3 text-lg">{biz.travelNote}</p><a href="/service-areas/" class="mt-4 inline-flex min-h-11 items-center gap-1 font-semibold text-brand-700 hover:underline underline-offset-4">See coverage details <Icon name="arrow" class="h-4 w-4" /></a></div>
+      <ul class="grid gap-3 sm:grid-cols-2" role="list">
+        {biz.serviceAreas.map(a => <li class="card flex items-start gap-3 p-4"><Icon name="pin" class="mt-0.5 h-5 w-5 shrink-0 text-brand-700" /><div><p class="font-semibold text-ink-950">{a.name}</p><p class="text-sm text-ink-500">{a.note}</p></div></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <Faq faqs={faqs} />
+  <Cta />
+</Base>

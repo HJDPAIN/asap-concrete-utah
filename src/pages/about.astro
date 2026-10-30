@@ -1,0 +1,43 @@
+---
+import { Picture } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Reviews from '../components/Reviews.astro';
+import Cta from '../components/Cta.astro';
+import Placeholder from '../components/Placeholder.astro';
+import Icon from '../components/Icon.astro';
+import { biz } from '../lib/site';
+import { breadcrumbSchema } from '../lib/schema';
+import truck from '../assets/images/truck-commercial-site.jpg';
+const crumbs = [{ label: 'About', href: '/about/' }];
+const gear = ['Track-mounted wall saw', 'Walk-behind flat saw', 'Electric flat saw for indoor work', 'Core drills with a range of bit sizes', 'Hand-held ring saw', 'Concrete scanner (GPR)', 'Skid steer with hydraulic breaker', 'Power washer and penetrating sealer'];
+---
+<Base title="About ASAP Concrete Cutting, Logan UT" description="Owner-operated concrete cutting company based in Logan, Utah. Sawing, coring, scanning and demolition for homeowners and contractors across Northern Utah and Southern Idaho." schema={[breadcrumbSchema(crumbs)]} ogImage={truck}>
+  <PageHeader title="About ASAP Concrete Cutting" intro="A Logan, Utah concrete cutting company that answers the phone, shows up when we say, and leaves the site clean." crumbs={crumbs} eyebrow="About" />
+  <section class="section">
+    <div class="container-x grid gap-12 lg:grid-cols-2 lg:items-start">
+      <div class="prose-body">
+        <h2>Who we are</h2>
+        <p>ASAP Concrete Cutting is based in {biz.city}, {biz.stateFull}. We cut, core, scan and remove concrete for homeowners, general contractors, plumbers and electricians across Cache Valley, Bear Lake, Southern Idaho, Brigham City, Ogden and Salt Lake City.</p>
+        <p>The name is the promise. Customers tell us we fit them in on short notice, communicate clearly, and leave the site ready for the next step. We would rather tell you honestly when we can be there than over-promise.</p>
+        <p class="rounded-lg bg-ink-100 p-4 text-base text-ink-700">[TODO: confirm with client] Owner name, year founded, crew size, and license/insurance details for this section.</p>
+        <h2>Equipment we bring</h2>
+        <ul>{gear.map(g => <li>{g}</li>)}</ul>
+        <h2>How we work</h2>
+        <p>Every job starts with a free quote. Tell us the location, the concrete thickness and what needs to be cut or drilled. If there is any doubt about what is inside the slab, we scan it first. Then we cut, clean up, and haul the concrete away if you want it gone.</p>
+      </div>
+      <div class="grid gap-6">
+        <Picture src={truck} alt="ASAP Concrete Cutting truck at a commercial job site in Northern Utah" widths={[480, 800, 1200]} sizes="(min-width:1024px) 560px, 100vw" formats={['avif','webp']} loading="eager" decoding="async" class="aspect-[4/3] w-full rounded-2xl object-cover" />
+        <Placeholder label="Photo needed: owner / crew" aspect="aspect-[16/9]" />
+        <div class="card">
+          <h2 class="text-xl">Talk to us</h2>
+          <a href={biz.phoneHref} class="mt-3 inline-flex min-h-11 items-center gap-2 text-xl font-bold text-ink-950 hover:text-brand-700"><Icon name="phone" class="h-5 w-5" />{biz.phone}</a>
+          <p class="text-sm text-ink-500">{biz.phoneNote}. {biz.city}, {biz.state}.</p>
+          <p class="mt-2 text-sm text-ink-500">{biz.hoursTodo}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <Reviews />
+  <Cta />
+</Base>

@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { biz } from '../lib/site';
+---
+<Base title="Page not found" description="That page does not exist." noindex>
+  <section class="section"><div class="container-x max-w-2xl text-center">
+    <p class="eyebrow">404</p>
+    <h1 class="mt-2">We couldn’t find that page</h1>
+    <p class="mt-4 text-lg">It may have moved during the site rebuild. Try one of these.</p>
+    <div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row"><a href="/services/" class="btn-primary">Services</a><a href="/contact/" class="btn-secondary">Get a quote</a><a href={biz.phoneHref} class="btn-ghost">{biz.phone}</a></div>
+  </div></section>
+</Base>

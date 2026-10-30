@@ -1,0 +1,37 @@
+{
+  "name": "ASAP Concrete Cutting",
+  "legalName": "ASAP Concrete Cutting",
+  "tagline": "You should see what we saw.",
+  "phone": "(435) 760-0806",
+  "phoneHref": "tel:+14357600806",
+  "phoneNote": "Call or text",
+  "email": null,
+  "emailTodo": "[TODO: confirm with client] email address",
+  "city": "Logan",
+  "state": "UT",
+  "stateFull": "Utah",
+  "streetAddress": null,
+  "addressTodo": "[TODO: confirm with client] street address or confirm service-area-only business",
+  "hours": null,
+  "hoursTodo": "[TODO: confirm with client] business hours",
+  "license": null,
+  "licenseTodo": "[TODO: confirm with client] Utah contractor license number and insurance",
+  "founded": null,
+  "foundedTodo": "[TODO: confirm with client] year founded",
+  "siteUrl": "https://asap-concrete-utah-preview.netlify.app",
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=100066160496885",
+    "instagram": "https://www.instagram.com/asapconcretecutting"
+  },
+  "googleReviewsUrl": null,
+  "serviceAreas": [
+    { "name": "Cache Valley", "note": "Logan and the surrounding valley, our home base." },
+    { "name": "Bear Lake", "note": "Garden City and the Bear Lake area." },
+    { "name": "Southern Idaho", "note": "Across the state line into southern Idaho." },
+    { "name": "Brigham City", "note": "Brigham City and Box Elder County." },
+    { "name": "Ogden", "note": "Ogden and the northern Wasatch Front." },
+    { "name": "Salt Lake City", "note": "Salt Lake City and the Salt Lake Valley." }
+  ],
+  "travelNote": "Willing to travel beyond areas listed.",
+  "ga4": "G-HNYVBE79LV"
+}

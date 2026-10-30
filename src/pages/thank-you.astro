@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { biz } from '../lib/site';
+---
+<Base title="Thanks, we got your request" description="Your quote request was sent to ASAP Concrete Cutting." noindex>
+  <section class="section">
+    <div class="container-x max-w-2xl text-center">
+      <span class="mx-auto inline-flex h-16 w-16 items-center justify-center rounded-full bg-brand-50 text-brand-700"><Icon name="check" class="h-8 w-8" /></span>
+      <h1 class="mt-6">Got it. We’ll be in touch.</h1>
+      <p class="mt-4 text-lg">Thanks for the details. We will call or text you back about your job. Need it sooner? Call us now.</p>
+      <div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+        <a href={biz.phoneHref} class="btn-primary"><Icon name="phone" class="h-5 w-5" />{biz.phone}</a>
+        <a href="/services/" class="btn-secondary">Browse services</a>
+      </div>
+    </div>
+  </section>
+</Base>
